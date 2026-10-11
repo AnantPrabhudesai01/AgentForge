@@ -1,0 +1,19 @@
+# PRIVATE — do not push to GitHub (user requirement 2026-10-11)
+docs/
+*.log
+.DS_Store
+
+# Next.js (standard, for when we scaffold)
+node_modules/
+.next/
+out/
+dist/
+.env*.local
+.env
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Local tooling
+.opencode/
+coverage/
