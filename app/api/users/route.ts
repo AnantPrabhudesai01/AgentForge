@@ -19,5 +19,5 @@ export async function  POST(req:NextRequest){
         }).returning();
         return NextResponse.json(result);
     }
-    return NextResponse.json(userResult[0   ])
+    return NextResponse.json(userResult[0])
 }
